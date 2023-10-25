@@ -1,0 +1,74 @@
+{
+    "Rows": [
+        {
+            "BusinessDateTime": "2023-10-24T00:00:00",
+            "Ric": "MNA0",
+            "RowTitle": "Cash",
+            "BusinessDates": [
+                "2023-10-24T00:00:00"
+            ],
+            "Values": [
+                "2223.00",
+                "2233.00"
+            ],
+            "HoverMessage": "Expiry date",
+            "HoverValue": "26 OCT 2023",
+            "HoverValues": null,
+            "HoverText": "Expiry date 26 OCT 2023"
+        },
+        {
+            "BusinessDateTime": "2023-10-24T00:00:00",
+            "Ric": "MNA3",
+            "RowTitle": "3-month",
+            "BusinessDates": [
+                "2023-10-24T00:00:00"
+            ],
+            "Values": [
+                "2240.00",
+                "2250.00"
+            ],
+            "HoverMessage": "Expiry date",
+            "HoverValue": "24 JAN 2024",
+            "HoverValues": null,
+            "HoverText": "Expiry date 24 JAN 2024"
+        },
+        {
+            "BusinessDateTime": "2023-10-24T00:00:00",
+            "Ric": "MNAZYR1",
+            "RowTitle": "Dec-24",
+            "BusinessDates": [
+                "2023-10-24T00:00:00"
+            ],
+            "Values": [
+                "2240.00",
+                "2250.00"
+            ],
+            "HoverMessage": "Expiry date",
+            "HoverValue": "18 DEC 2024",
+            "HoverValues": null,
+            "HoverText": "Expiry date 18 DEC 2024"
+        }
+    ],
+    "Title": "LME NASAAC Official Prices",
+    "Strapline": "",
+    "SupportingCopy": "",
+    "NoDataMessage": "No data exists for the specified date",
+    "DataType": 1,
+    "DateOfData": "2023-10-24T00:00:00+00:00",
+    "LookbackDate": "2023-10-18T00:00:00+00:00",
+    "HistoricalDataLookbackEnabled": true,
+    "HistoricalDataLookbackRange": 5,
+    "HistoricalDataLookbackUnit": 3,
+    "HistoricalDataDisplayPeriod": 1,
+    "ColumnTitles": [
+        "Contract",
+        "Bid",
+        "Offer"
+    ],
+    "ChangeIndicatedColumns": [
+        false,
+        false,
+        false
+    ],
+    "HideColumnTitles": false
+}

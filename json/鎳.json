@@ -1,0 +1,106 @@
+{
+    "Rows": [
+        {
+            "BusinessDateTime": "2023-10-24T00:00:00",
+            "Ric": "MNI0",
+            "RowTitle": "Cash",
+            "BusinessDates": [
+                "2023-10-24T00:00:00"
+            ],
+            "Values": [
+                "17775.00",
+                "17800.00"
+            ],
+            "HoverMessage": "Expiry date",
+            "HoverValue": "26 OCT 2023",
+            "HoverValues": null,
+            "HoverText": "Expiry date 26 OCT 2023"
+        },
+        {
+            "BusinessDateTime": "2023-10-24T00:00:00",
+            "Ric": "MNI3",
+            "RowTitle": "3-month",
+            "BusinessDates": [
+                "2023-10-24T00:00:00"
+            ],
+            "Values": [
+                "18050.00",
+                "18075.00"
+            ],
+            "HoverMessage": "Expiry date",
+            "HoverValue": "24 JAN 2024",
+            "HoverValues": null,
+            "HoverText": "Expiry date 24 JAN 2024"
+        },
+        {
+            "BusinessDateTime": "2023-10-24T00:00:00",
+            "Ric": "MNIZYR1",
+            "RowTitle": "Dec-24",
+            "BusinessDates": [
+                "2023-10-24T00:00:00"
+            ],
+            "Values": [
+                "19070.00",
+                "19120.00"
+            ],
+            "HoverMessage": "Expiry date",
+            "HoverValue": "18 DEC 2024",
+            "HoverValues": null,
+            "HoverText": "Expiry date 18 DEC 2024"
+        },
+        {
+            "BusinessDateTime": "2023-10-24T00:00:00",
+            "Ric": "MNIZYR2",
+            "RowTitle": "Dec-25",
+            "BusinessDates": [
+                "2023-10-24T00:00:00"
+            ],
+            "Values": [
+                "20255.00",
+                "20305.00"
+            ],
+            "HoverMessage": "Expiry date",
+            "HoverValue": "17 DEC 2025",
+            "HoverValues": null,
+            "HoverText": "Expiry date 17 DEC 2025"
+        },
+        {
+            "BusinessDateTime": "2023-10-24T00:00:00",
+            "Ric": "MNIZYR3",
+            "RowTitle": "Dec-26",
+            "BusinessDates": [
+                "2023-10-24T00:00:00"
+            ],
+            "Values": [
+                "21420.00",
+                "21470.00"
+            ],
+            "HoverMessage": "Expiry date",
+            "HoverValue": "16 DEC 2026",
+            "HoverValues": null,
+            "HoverText": "Expiry date 16 DEC 2026"
+        }
+    ],
+    "Title": "LME Nickel Official Prices",
+    "Strapline": "",
+    "SupportingCopy": "",
+    "NoDataMessage": "No data exists for the specified date",
+    "DataType": 1,
+    "DateOfData": "2023-10-24T00:00:00+00:00",
+    "LookbackDate": "2023-10-04T00:00:00+00:00",
+    "HistoricalDataLookbackEnabled": true,
+    "HistoricalDataLookbackRange": 15,
+    "HistoricalDataLookbackUnit": 3,
+    "HistoricalDataDisplayPeriod": 1,
+    "ColumnTitles": [
+        "Contract",
+        "Bid",
+        "Offer"
+    ],
+    "ChangeIndicatedColumns": [
+        false,
+        false,
+        false
+    ],
+    "HideColumnTitles": false
+}
