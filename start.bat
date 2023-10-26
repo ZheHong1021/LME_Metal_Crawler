@@ -1,4 +1,4 @@
-@echo off
-call C:\xampp\htdocs\Code\python\Python_Crawler\倫敦金屬交易所\venv\Scripts\activate
-cd C:\xampp\htdocs\Code\python\Python_Crawler\倫敦金屬交易所
+﻿@echo off
+call C:\xampp\htdocs\Code\project\Crawler\LME_Metal_Crawler\venv\Scripts\activate
+cd C:\xampp\htdocs\Code\project\Crawler\LME_Metal_Crawler
 python app.py
