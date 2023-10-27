@@ -10,7 +10,7 @@ def crawlerLMEMetal(url):
     try:
         option = webdriver.ChromeOptions()
         # 【參考】https://ithelp.ithome.com.tw/articles/10244446
-        # option.add_argument("headless") # 不開網頁搜尋
+        # option.add_argument("headless") # 不開網頁搜尋(這個必須開啟)
         option.add_argument('blink-settings=imagesEnabled=false') # 不加載圖片提高效率
         option.add_argument('--log-level=3') # 這個option可以讓你跟headless時網頁端的console.log說掰掰
         """下面參數能提升爬蟲穩定性"""
@@ -20,6 +20,10 @@ def crawlerLMEMetal(url):
         # driver = webdriver.Chrome(chrome_options=option) #啟動模擬瀏覽器
         driver = webdriver.Chrome(cromedriver_path, chrome_options=option) #啟動模擬瀏覽器
         driver.get(url) # 取得網頁代碼
+
+        # 隐性等待30秒 (只要寫一次即可) => 等頁面渲染完才會抓
+        driver.implicitly_wait(30)
+
 
         # https://gist.github.com/miodeqqq/b416b42e1573e6d35f464375297a070c
         # find iframe (顯性等待 10秒)
@@ -43,7 +47,7 @@ def crawlerLMEMetal(url):
         input_tag.click()
 
         # 點擊完等待一下
-        time.sleep(3)
+        # time.sleep(3)
 
 
         # 跳出 iframe
