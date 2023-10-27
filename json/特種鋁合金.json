@@ -1,43 +1,43 @@
 {
     "Rows": [
         {
-            "BusinessDateTime": "2023-10-25T00:00:00",
+            "BusinessDateTime": "2023-10-26T00:00:00",
             "Ric": "MNA0",
             "RowTitle": "Cash",
             "BusinessDates": [
-                "2023-10-25T00:00:00"
+                "2023-10-26T00:00:00"
             ],
             "Values": [
-                "2223.00",
-                "2233.00"
+                "2224.00",
+                "2234.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "27 OCT 2023",
+            "HoverValue": "30 OCT 2023",
             "HoverValues": null,
-            "HoverText": "Expiry date 27 OCT 2023"
+            "HoverText": "Expiry date 30 OCT 2023"
         },
         {
-            "BusinessDateTime": "2023-10-25T00:00:00",
+            "BusinessDateTime": "2023-10-26T00:00:00",
             "Ric": "MNA3",
             "RowTitle": "3-month",
             "BusinessDates": [
-                "2023-10-25T00:00:00"
+                "2023-10-26T00:00:00"
             ],
             "Values": [
                 "2240.00",
                 "2250.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "25 JAN 2024",
+            "HoverValue": "26 JAN 2024",
             "HoverValues": null,
-            "HoverText": "Expiry date 25 JAN 2024"
+            "HoverText": "Expiry date 26 JAN 2024"
         },
         {
-            "BusinessDateTime": "2023-10-25T00:00:00",
+            "BusinessDateTime": "2023-10-26T00:00:00",
             "Ric": "MNAZYR1",
             "RowTitle": "Dec-24",
             "BusinessDates": [
-                "2023-10-25T00:00:00"
+                "2023-10-26T00:00:00"
             ],
             "Values": [
                 "2240.00",
@@ -54,8 +54,8 @@
     "SupportingCopy": "",
     "NoDataMessage": "No data exists for the specified date",
     "DataType": 1,
-    "DateOfData": "2023-10-25T00:00:00+00:00",
-    "LookbackDate": "2023-10-19T00:00:00+00:00",
+    "DateOfData": "2023-10-26T00:00:00+00:00",
+    "LookbackDate": "2023-10-20T00:00:00+00:00",
     "HistoricalDataLookbackEnabled": true,
     "HistoricalDataLookbackRange": 5,
     "HistoricalDataLookbackUnit": 3,
