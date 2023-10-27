@@ -10,7 +10,7 @@ def crawlerLMEMetal(url):
     try:
         option = webdriver.ChromeOptions()
         # 【參考】https://ithelp.ithome.com.tw/articles/10244446
-        option.add_argument("headless") # 不開網頁搜尋
+        # option.add_argument("headless") # 不開網頁搜尋
         option.add_argument('blink-settings=imagesEnabled=false') # 不加載圖片提高效率
         option.add_argument('--log-level=3') # 這個option可以讓你跟headless時網頁端的console.log說掰掰
         """下面參數能提升爬蟲穩定性"""
@@ -71,9 +71,9 @@ def crawlerLMEMetal(url):
 
 
 if __name__ == "__main__":
+    # url = 'https://www.lme.com/api/trading-data/day-delayed?datasourceId=5ff6f336-bd23-40c5-bcce-2e038d652f99'
     cromedriver_path = './chromedriver.exe'
 
-    # url = 'https://www.lme.com/api/trading-data/day-delayed?datasourceId=5ff6f336-bd23-40c5-bcce-2e038d652f99'
     # API連結
     steel_dict = {
         '廢鋼': 'https://www.lme.com/api/trading-data/day-delayed?datasourceId=5ff6f336-bd23-40c5-bcce-2e038d652f99',
@@ -94,6 +94,8 @@ if __name__ == "__main__":
     for name, url in steel_dict.items():
 
         json_data = crawlerLMEMetal(url)
+        if json_data:
+            print(f"{name}.....✅成功捕捉")
 
         # 儲存JSON檔案(中文字處理)
         # https://blog.csdn.net/baidu_36499789/article/details/121371587
@@ -103,5 +105,5 @@ if __name__ == "__main__":
             outfile.write(json_object)
     
     print("================================")
-    print("執行完成，視窗即將在五秒之後關閉...")
-    time.sleep(5)
+    print("執行完成，視窗即將在兩秒之後關閉...")
+    time.sleep(2)
