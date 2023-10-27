@@ -10,7 +10,7 @@ def crawlerLMEMetal(url):
     try:
         option = webdriver.ChromeOptions()
         # 【參考】https://ithelp.ithome.com.tw/articles/10244446
-        # option.add_argument("headless") # 不開網頁搜尋
+        option.add_argument("headless") # 不開網頁搜尋
         option.add_argument('blink-settings=imagesEnabled=false') # 不加載圖片提高效率
         option.add_argument('--log-level=3') # 這個option可以讓你跟headless時網頁端的console.log說掰掰
         """下面參數能提升爬蟲穩定性"""
@@ -41,6 +41,9 @@ def crawlerLMEMetal(url):
 
         # 點擊
         input_tag.click()
+
+        # 點擊完等待一下
+        time.sleep(3)
 
 
         # 跳出 iframe
