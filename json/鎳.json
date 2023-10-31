@@ -1,47 +1,47 @@
 {
     "Rows": [
         {
-            "BusinessDateTime": "2023-10-27T00:00:00",
+            "BusinessDateTime": "2023-10-30T00:00:00",
             "Ric": "MNI0",
             "RowTitle": "Cash",
             "BusinessDates": [
-                "2023-10-27T00:00:00"
+                "2023-10-30T00:00:00"
             ],
             "Values": [
-                "17975.00",
-                "18000.00"
+                "18175.00",
+                "18180.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "31 OCT 2023",
+            "HoverValue": "01 NOV 2023",
             "HoverValues": null,
-            "HoverText": "Expiry date 31 OCT 2023"
+            "HoverText": "Expiry date 01 NOV 2023"
         },
         {
-            "BusinessDateTime": "2023-10-27T00:00:00",
+            "BusinessDateTime": "2023-10-30T00:00:00",
             "Ric": "MNI3",
             "RowTitle": "3-month",
             "BusinessDates": [
-                "2023-10-27T00:00:00"
+                "2023-10-30T00:00:00"
             ],
             "Values": [
-                "18225.00",
-                "18230.00"
+                "18415.00",
+                "18445.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "26 JAN 2024",
+            "HoverValue": "30 JAN 2024",
             "HoverValues": null,
-            "HoverText": "Expiry date 26 JAN 2024"
+            "HoverText": "Expiry date 30 JAN 2024"
         },
         {
-            "BusinessDateTime": "2023-10-27T00:00:00",
+            "BusinessDateTime": "2023-10-30T00:00:00",
             "Ric": "MNIZYR1",
             "RowTitle": "Dec-24",
             "BusinessDates": [
-                "2023-10-27T00:00:00"
+                "2023-10-30T00:00:00"
             ],
             "Values": [
-                "19255.00",
-                "19305.00"
+                "19455.00",
+                "19505.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "18 DEC 2024",
@@ -49,15 +49,15 @@
             "HoverText": "Expiry date 18 DEC 2024"
         },
         {
-            "BusinessDateTime": "2023-10-27T00:00:00",
+            "BusinessDateTime": "2023-10-30T00:00:00",
             "Ric": "MNIZYR2",
             "RowTitle": "Dec-25",
             "BusinessDates": [
-                "2023-10-27T00:00:00"
+                "2023-10-30T00:00:00"
             ],
             "Values": [
-                "20405.00",
-                "20455.00"
+                "20580.00",
+                "20630.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "17 DEC 2025",
@@ -65,15 +65,15 @@
             "HoverText": "Expiry date 17 DEC 2025"
         },
         {
-            "BusinessDateTime": "2023-10-27T00:00:00",
+            "BusinessDateTime": "2023-10-30T00:00:00",
             "Ric": "MNIZYR3",
             "RowTitle": "Dec-26",
             "BusinessDates": [
-                "2023-10-27T00:00:00"
+                "2023-10-30T00:00:00"
             ],
             "Values": [
-                "21575.00",
-                "21625.00"
+                "21720.00",
+                "21770.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "16 DEC 2026",
@@ -86,8 +86,8 @@
     "SupportingCopy": "",
     "NoDataMessage": "No data exists for the specified date",
     "DataType": 1,
-    "DateOfData": "2023-10-27T00:00:00+00:00",
-    "LookbackDate": "2023-10-09T00:00:00+00:00",
+    "DateOfData": "2023-10-30T00:00:00+00:00",
+    "LookbackDate": "2023-10-10T00:00:00+00:00",
     "HistoricalDataLookbackEnabled": true,
     "HistoricalDataLookbackRange": 15,
     "HistoricalDataLookbackUnit": 3,

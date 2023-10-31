@@ -1,47 +1,47 @@
 {
     "Rows": [
         {
-            "BusinessDateTime": "2023-10-27T00:00:00",
+            "BusinessDateTime": "2023-10-30T00:00:00",
             "Ric": "MSN0",
             "RowTitle": "Cash",
             "BusinessDates": [
-                "2023-10-27T00:00:00"
+                "2023-10-30T00:00:00"
             ],
             "Values": [
-                "24850.00",
-                "24875.00"
+                "24775.00",
+                "24825.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "31 OCT 2023",
+            "HoverValue": "01 NOV 2023",
             "HoverValues": null,
-            "HoverText": "Expiry date 31 OCT 2023"
+            "HoverText": "Expiry date 01 NOV 2023"
         },
         {
-            "BusinessDateTime": "2023-10-27T00:00:00",
+            "BusinessDateTime": "2023-10-30T00:00:00",
             "Ric": "MSN3",
             "RowTitle": "3-month",
             "BusinessDates": [
-                "2023-10-27T00:00:00"
+                "2023-10-30T00:00:00"
             ],
             "Values": [
-                "24850.00",
-                "24900.00"
+                "24975.00",
+                "25025.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "26 JAN 2024",
+            "HoverValue": "30 JAN 2024",
             "HoverValues": null,
-            "HoverText": "Expiry date 26 JAN 2024"
+            "HoverText": "Expiry date 30 JAN 2024"
         },
         {
-            "BusinessDateTime": "2023-10-27T00:00:00",
+            "BusinessDateTime": "2023-10-30T00:00:00",
             "Ric": "MSN15",
             "RowTitle": "15-month",
             "BusinessDates": [
-                "2023-10-27T00:00:00"
+                "2023-10-30T00:00:00"
             ],
             "Values": [
-                "24670.00",
-                "24720.00"
+                "24865.00",
+                "24915.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "15 JAN 2025",
@@ -54,8 +54,8 @@
     "SupportingCopy": "",
     "NoDataMessage": "No data exists for the specified date",
     "DataType": 1,
-    "DateOfData": "2023-10-27T00:00:00+00:00",
-    "LookbackDate": "2023-10-23T00:00:00+00:00",
+    "DateOfData": "2023-10-30T00:00:00+00:00",
+    "LookbackDate": "2023-10-24T00:00:00+00:00",
     "HistoricalDataLookbackEnabled": true,
     "HistoricalDataLookbackRange": 5,
     "HistoricalDataLookbackUnit": 3,
