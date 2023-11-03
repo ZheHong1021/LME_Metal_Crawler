@@ -1,47 +1,47 @@
 {
     "Rows": [
         {
-            "BusinessDateTime": "2023-11-01T00:00:00",
+            "BusinessDateTime": "2023-11-02T00:00:00",
             "Ric": "CBD0",
             "RowTitle": "Cash",
             "BusinessDates": [
-                "2023-11-01T00:00:00"
+                "2023-11-02T00:00:00"
             ],
             "Values": [
-                "32490.00",
-                "32990.00"
+                "32500.00",
+                "33000.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "03 NOV 2023",
+            "HoverValue": "06 NOV 2023",
             "HoverValues": null,
-            "HoverText": "Expiry date 03 NOV 2023"
+            "HoverText": "Expiry date 06 NOV 2023"
         },
         {
-            "BusinessDateTime": "2023-11-01T00:00:00",
+            "BusinessDateTime": "2023-11-02T00:00:00",
             "Ric": "CBD3",
             "RowTitle": "3-month",
             "BusinessDates": [
-                "2023-11-01T00:00:00"
+                "2023-11-02T00:00:00"
             ],
             "Values": [
                 "32920.00",
                 "33420.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "01 FEB 2024",
+            "HoverValue": "02 FEB 2024",
             "HoverValues": null,
-            "HoverText": "Expiry date 01 FEB 2024"
+            "HoverText": "Expiry date 02 FEB 2024"
         },
         {
-            "BusinessDateTime": "2023-11-01T00:00:00",
+            "BusinessDateTime": "2023-11-02T00:00:00",
             "Ric": "CBD15",
             "RowTitle": "15-month",
             "BusinessDates": [
-                "2023-11-01T00:00:00"
+                "2023-11-02T00:00:00"
             ],
             "Values": [
-                "34555.00",
-                "35555.00"
+                "34550.00",
+                "35550.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "19 FEB 2025",
@@ -54,8 +54,8 @@
     "SupportingCopy": "",
     "NoDataMessage": "No data exists for the specified date",
     "DataType": 1,
-    "DateOfData": "2023-11-01T00:00:00+00:00",
-    "LookbackDate": "2023-10-26T00:00:00+00:00",
+    "DateOfData": "2023-11-02T00:00:00+00:00",
+    "LookbackDate": "2023-10-27T00:00:00+00:00",
     "HistoricalDataLookbackEnabled": true,
     "HistoricalDataLookbackRange": 5,
     "HistoricalDataLookbackUnit": 3,
