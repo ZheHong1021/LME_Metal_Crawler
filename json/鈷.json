@@ -1,27 +1,27 @@
 {
     "Rows": [
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-03T00:00:00",
             "Ric": "CBD0",
             "RowTitle": "Cash",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-03T00:00:00"
             ],
             "Values": [
-                "32500.00",
-                "33000.00"
+                "32505.00",
+                "33005.00"
             ],
             "HoverMessage": "Expiry date",
-            "HoverValue": "06 NOV 2023",
+            "HoverValue": "07 NOV 2023",
             "HoverValues": null,
-            "HoverText": "Expiry date 06 NOV 2023"
+            "HoverText": "Expiry date 07 NOV 2023"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-03T00:00:00",
             "Ric": "CBD3",
             "RowTitle": "3-month",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-03T00:00:00"
             ],
             "Values": [
                 "32920.00",
@@ -33,11 +33,11 @@
             "HoverText": "Expiry date 02 FEB 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-03T00:00:00",
             "Ric": "CBD15",
             "RowTitle": "15-month",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-03T00:00:00"
             ],
             "Values": [
                 "34550.00",
@@ -54,8 +54,8 @@
     "SupportingCopy": "",
     "NoDataMessage": "No data exists for the specified date",
     "DataType": 1,
-    "DateOfData": "2023-11-02T00:00:00+00:00",
-    "LookbackDate": "2023-10-27T00:00:00+00:00",
+    "DateOfData": "2023-11-03T00:00:00+00:00",
+    "LookbackDate": "2023-10-30T00:00:00+00:00",
     "HistoricalDataLookbackEnabled": true,
     "HistoricalDataLookbackRange": 5,
     "HistoricalDataLookbackUnit": 3,

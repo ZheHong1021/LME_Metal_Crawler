@@ -1,14 +1,14 @@
 {
     "Rows": [
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc1",
             "RowTitle": "Month 1",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "363.00"
+                "364.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "30 NOV 2023",
@@ -16,14 +16,14 @@
             "HoverText": "Expiry date 30 NOV 2023"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc2",
             "RowTitle": "Month 2",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "373.00"
+                "390.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "29 DEC 2023",
@@ -31,14 +31,14 @@
             "HoverText": "Expiry date 29 DEC 2023"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc3",
             "RowTitle": "Month 3",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "380.00"
+                "390.50"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "31 JAN 2024",
@@ -46,14 +46,14 @@
             "HoverText": "Expiry date 31 JAN 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc4",
             "RowTitle": "Month 4",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "396.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "29 FEB 2024",
@@ -61,14 +61,14 @@
             "HoverText": "Expiry date 29 FEB 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc5",
             "RowTitle": "Month 5",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "28 MAR 2024",
@@ -76,14 +76,14 @@
             "HoverText": "Expiry date 28 MAR 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc6",
             "RowTitle": "Month 6",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "30 APR 2024",
@@ -91,14 +91,14 @@
             "HoverText": "Expiry date 30 APR 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc7",
             "RowTitle": "Month 7",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "31 MAY 2024",
@@ -106,14 +106,14 @@
             "HoverText": "Expiry date 31 MAY 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc8",
             "RowTitle": "Month 8",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "28 JUN 2024",
@@ -121,14 +121,14 @@
             "HoverText": "Expiry date 28 JUN 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc9",
             "RowTitle": "Month 9",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "31 JUL 2024",
@@ -136,14 +136,14 @@
             "HoverText": "Expiry date 31 JUL 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc10",
             "RowTitle": "Month 10",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "30 AUG 2024",
@@ -151,14 +151,14 @@
             "HoverText": "Expiry date 30 AUG 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc11",
             "RowTitle": "Month 11",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "30 SEP 2024",
@@ -166,14 +166,14 @@
             "HoverText": "Expiry date 30 SEP 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc12",
             "RowTitle": "Month 12",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "31 OCT 2024",
@@ -181,14 +181,14 @@
             "HoverText": "Expiry date 31 OCT 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc13",
             "RowTitle": "Month 13",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "29 NOV 2024",
@@ -196,14 +196,14 @@
             "HoverText": "Expiry date 29 NOV 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc14",
             "RowTitle": "Month 14",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "31 DEC 2024",
@@ -211,14 +211,14 @@
             "HoverText": "Expiry date 31 DEC 2024"
         },
         {
-            "BusinessDateTime": "2023-11-02T00:00:00",
+            "BusinessDateTime": "2023-11-08T00:00:00",
             "Ric": "CSSTc15",
             "RowTitle": "Month 15",
             "BusinessDates": [
-                "2023-11-02T00:00:00"
+                "2023-11-08T00:00:00"
             ],
             "Values": [
-                "376.00"
+                "391.00"
             ],
             "HoverMessage": "Expiry date",
             "HoverValue": "31 JAN 2025",
@@ -231,8 +231,8 @@
     "SupportingCopy": "",
     "NoDataMessage": "No data exists for the specified date",
     "DataType": 1,
-    "DateOfData": "2023-11-02T00:00:00+00:00",
-    "LookbackDate": "2023-10-27T00:00:00+00:00",
+    "DateOfData": "2023-11-08T00:00:00+00:00",
+    "LookbackDate": "2023-11-02T00:00:00+00:00",
     "HistoricalDataLookbackEnabled": true,
     "HistoricalDataLookbackRange": 5,
     "HistoricalDataLookbackUnit": 3,
