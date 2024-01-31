@@ -6,7 +6,35 @@ from  selenium.webdriver.support  import  expected_conditions  as  ec
 from  selenium.webdriver.support.ui  import  WebDriverWait 
 import json
 
-def crawlerLMEMetal(url):
+import logging
+
+def setup_logger(log_file='app.log'):
+    # 创建一个记录器
+    logger = logging.getLogger('my_logger')
+    logger.setLevel(logging.DEBUG)
+
+    # 创建一个文件处理程序，用于将日志写入文件
+    file_handler = logging.FileHandler(log_file, encoding='utf-8')
+    file_handler.setLevel(logging.DEBUG)
+
+    # 创建一个控制台处理程序，用于在控制台输出日志
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+
+    # 创建一个格式器，用于定义日志消息的格式
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+    console_handler.setFormatter(formatter)
+
+    # 将处理程序添加到记录器
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    return logger
+
+
+
+def crawlerLMEMetal(url, name):
     try:
         option = webdriver.ChromeOptions()
         # 【參考】https://ithelp.ithome.com.tw/articles/10244446
@@ -17,10 +45,12 @@ def crawlerLMEMetal(url):
         option.add_argument('--disable-dev-shm-usage') # 使用共享內存RAM
         option.add_argument('--disable-gpu') # 規避部分chrome gpu bug
 
-        # driver = webdriver.Chrome(chrome_options=option) #啟動模擬瀏覽器
-        driver = webdriver.Chrome(cromedriver_path, chrome_options=option) #啟動模擬瀏覽器
-        driver.get(url) # 取得網頁代碼
-
+        try:
+            # driver = webdriver.Chrome(chrome_options=option) #啟動模擬瀏覽器
+            driver = webdriver.Chrome(CHROMEDRIVER_PATH, chrome_options=option) #啟動模擬瀏覽器
+            driver.get(url) # 取得網頁代碼
+        except Exception as e:
+            logger.error(f"[{name}]連線至爬蟲網站時發生錯誤: {e}")
         # 隐性等待30秒 (只要寫一次即可) => 等頁面渲染完才會抓
         driver.implicitly_wait(30)
 
@@ -68,7 +98,7 @@ def crawlerLMEMetal(url):
         print("----(已中斷程式)----")
 
     except Exception as e:
-        print(f"捕捉資料發生錯誤: {e}")
+        logger.error(f"[{name}]捕捉資料發生錯誤: {e}")
 
     finally: # 最終都會關閉 chromedriver
         driver.close()
@@ -80,8 +110,11 @@ def crawlerLMEMetal(url):
 
 if __name__ == "__main__":
     # url = 'https://www.lme.com/api/trading-data/day-delayed?datasourceId=5ff6f336-bd23-40c5-bcce-2e038d652f99'
-    cromedriver_path = './chromedriver.exe'
+    CHROMEDRIVER_PATH = './chromedriver.exe'
 
+    # 操作日誌
+    logger = setup_logger()
+    
     # API連結
     steel_dict = {
         '廢鋼': 'https://www.lme.com/api/trading-data/day-delayed?datasourceId=5ff6f336-bd23-40c5-bcce-2e038d652f99',
@@ -101,9 +134,9 @@ if __name__ == "__main__":
 
     for name, url in steel_dict.items():
 
-        json_data = crawlerLMEMetal(url)
+        json_data = crawlerLMEMetal(url, name)
         if json_data:
-            print(f"{name}.....✅成功捕捉")
+            logger.info(f"{name}.....✅成功捕捉")
 
         # 儲存JSON檔案(中文字處理)
         # https://blog.csdn.net/baidu_36499789/article/details/121371587
